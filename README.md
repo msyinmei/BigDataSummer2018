@@ -51,8 +51,7 @@ use <your netid>
 ```sh
 create table XYZ (x int, y varchar(32), z varchar(32));
 ```
-Challenge: create a relational table to store students and courses, populate with 10 records. Got it. 
-create table StudentsInCourses 
+Challenge: create a relational table to store students and courses, populate with 10 records.
 SQL Syntax: 
 https://www.w3schools.com/sql/sql_syntax.asp
 
