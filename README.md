@@ -53,3 +53,18 @@ java -version
 
 All available tools can be viewed in the following directory: 
 /home/tools/
+
+
+--- 
+##Other Notes
+What is Big Data? 
+https://en.wikipedia.org/wiki/Big_data
+
+#Structured vs. Unstructured Databases
+##Structured: 
+has a schema. 
+R & MySQL: Persistent Store. Fixed Columns. Structured Databases 
+
+##Unstructured:
+No schema. Aka Schemaless. 
+MongoDB: Structured Databases are not useful for storing, so they came up with MongoDB to deal with data varied in structure.
