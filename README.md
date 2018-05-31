@@ -9,8 +9,7 @@ $install putty
 ```
 
 ```sh
-$install
-xming
+$install xming
 ```
 
 ### Mac:
