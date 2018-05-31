@@ -1,5 +1,7 @@
 # BigDataSummer2018
 Big Data CS-GY 6513 Professor Raman Kannan
+A big thank you to IBM Academic Initiatives for sponsoring all computers, software and cloud computing infrastructure utilized in this course.
+
 
 ## Environment Setup:
 ### Windows
