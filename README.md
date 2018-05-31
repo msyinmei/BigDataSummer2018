@@ -5,11 +5,11 @@ Big Data CS-GY 6513 Professor Raman Kannan
 ### Windows
 Run the following two commands to install putty and xming:
 ```sh
-$install putty
+install putty
 ```
 
 ```sh
-$install xming
+install xming
 ```
 
 ### Mac:
@@ -18,15 +18,15 @@ https://www.xquartz.org/
 Open and run xquartz (search and open xquartz)
 Open your terminal and type in 
 ```sh
-$ssh -Y <your netid>@12.42.205.8
+ssh -Y <your netid>@12.42.205.8
 ```
 When prompted for a password:
 ```sh
-$welcome + letters in your netid + !
+welcome<letters in your netid>!
 ```
 Once logged in, change your password with the following command:
 ```sh
-$passwd
+passwd
 ```
 type in current password 
 type in new password
@@ -35,21 +35,21 @@ type to confirm new password
 ## Run MySQL:
 Run the following commands: 
 ```sh
-$which mysql
+which mysql
 ```
 ```sh
-$/usr/bin/mysql -u <your netid> -p
+/usr/bin/mysql -u <your netid> -p
 ```
 When prompted for a password, your password for mysql is:
 <your netid> + 123
 
 #Commands to use your database:
 ```sh 
-$use <your netid>
+use <your netid>
 ```
 #Commands to create a table in your database: 
 ```sh
-$create table XYZ (x int, y varchar(32), z varchar(32));
+create table XYZ (x int, y varchar(32), z varchar(32));
 ```
 Challenge: create a relational table to store students and courses, populate with 10 records. Got it. 
 create table StudentsInCourses 
@@ -59,19 +59,19 @@ https://www.w3schools.com/sql/sql_syntax.asp
 ## Run R: 
 Type command:
 ```sh 
-$R
+R
 ```
 ```sh
-$ls()
+ls()
 ```
 ```sh
-$lsl<-ls()
+lsl<-ls()
 ```
 ```sh
-$length(lsl)
+length(lsl)
 ```
 ```sh
-$history()
+history()
 ```
 ```sh
 tail(history())
