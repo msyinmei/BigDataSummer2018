@@ -25,6 +25,12 @@ Set up to use ssh with <your netid>@12.42.205.8
 ```sh
 ssh -Y <your netid>@12.42.205.8
 ```
+
+OR
+
+```
+ssh -Y <yournetid>@12.42.205.9 
+```
 4. When prompted for a password:  
 ```sh
 welcome<letters in your netid>!
@@ -35,7 +41,7 @@ passwd
 ```
 6. type in current password  
 7. type in new password  
-8. type to confirm new password  
+8. type to confirm new password (remember this password for next time!)
 
 ## Run MySQL:
 Run the following commands:  
@@ -54,10 +60,17 @@ use <your netid>
 ```
 #Commands to create a table in your database:   
 ```sh
-create table XYZ (x int, y varchar(32), z varchar(32));
+CREATE TABLE XYZ(x int, y varchar(32), z varchar(32));
 ```
 Challenge: create a relational table to store students and courses, populate with 10 records.  
 SQL Syntax: https://www.w3schools.com/sql/sql_syntax.asp
+
+```CREATE TABLE Enrollment(student_id int, first_name varchar(32), last_name varchar(32), course_id int)
+
+INSERT INTO Enrollment(StudentID, FirstName, LastName, CourseID) VALUES (1, 'Yone', 'One', 3)
+INSERT INTO Enrollment(StudentID, FirstName, LastName, CourseID) VALUES (2, 'Ytwo', 'Two', 4)
+INSERT INTO Enrollment(StudentID, FirstName, LastName, CourseID) VALUES (3, 'Ythree', 'Three', 5)
+```
 
 ## Run R: 
 Type command:  
@@ -111,3 +124,4 @@ R & MySQL: Persistent Store. Fixed Columns. Structured Databases
 ## Unstructured:
 No schema. Aka Schemaless.  
 MongoDB: Structured Databases are not useful for storing, so they came up with MongoDB to deal with data varied in structure. 
+
