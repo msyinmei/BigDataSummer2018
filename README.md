@@ -52,7 +52,8 @@ which mysql
 /usr/bin/mysql -u <your netid> -p
 ```
 When prompted for a password, your password for mysql is:
-```  
+
+```sh  
 <your netid> + 123  
 ```
 
