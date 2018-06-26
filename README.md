@@ -54,7 +54,7 @@ which mysql
 When prompted for a password, your password for mysql is:
 
 ```sh  
-your netid + 123  
+<your netid> + 123  
 ```
 
 #Commands to use your database:  
