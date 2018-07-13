@@ -1,3 +1,5 @@
+##Practice with R
+
 MAC Directions:
 1) Run xquartz to get the xterm 
 2) run the IBM server from xterm 

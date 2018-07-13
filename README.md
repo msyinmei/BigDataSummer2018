@@ -65,7 +65,7 @@ CREATE TABLE XYZ(x int, y varchar(32), z varchar(32));
 Challenge: create a relational table to store students and courses, populate with 10 records.  
 SQL Syntax: https://www.w3schools.com/sql/sql_syntax.asp
 
-```CREATE TABLE Enrollment(student_id int, first_name varchar(32), last_name varchar(32), course_id int)
+```CREATE TABLE Enrollment(StudentID int, FirstName varchar(32), LastName varchar(32), CourseID int)
 
 INSERT INTO Enrollment(StudentID, FirstName, LastName, CourseID) VALUES (1, 'Yone', 'One', 3)
 INSERT INTO Enrollment(StudentID, FirstName, LastName, CourseID) VALUES (2, 'Ytwo', 'Two', 4)
@@ -100,7 +100,6 @@ rm(list=ls())
 ```sh
 java -version
 ```
-
 
 All available tools can be viewed in the following directory:  
 ```sh
