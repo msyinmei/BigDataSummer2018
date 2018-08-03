@@ -14,8 +14,7 @@ install putty
 ```sh
 install xming
 ```
-your login: your netid  
-your password: welcome<letters in your netid>!  
+login w netid and the default password shared in class 
 Set up to use ssh with <your netid>@12.42.205.8  
 
 ### Mac:
